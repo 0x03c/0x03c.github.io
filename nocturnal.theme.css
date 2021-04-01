@@ -1,0 +1,176 @@
+
+@import url("https://raw.githubusercontent.com/0x03c/DiscordTheme/ec88c922f608843d5187b6462020ec8cf4e728cb/nocturnal.theme.css");
+
+/* Better discord Meta */
+//META{"name":"Nocturnal Edit", "description":"none","author":"Spectra#7698 Edit by Ayaka","version":"1.3.3.7","source":"https://github.com/codedotspectra/themes","website":"https://codedotspectra.github.io/me/"}*//{}
+
+/* Original Nocturnal */
+@import url("https://codedotspectra.github.io/themes/nocturnal/importCSS/core.css");
+
+
+
+/* Ayaka Modifications */
+
+@import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css");
+
+/* Discord watermark text in top left hand corner */
+
+.wordmark-2iDDfm svg {
+    width: 0px;
+}
+
+.wordmark-2iDDfm:after {
+    font-family: "Discord";
+    content: "Ayacord";
+    font-size: 15px;
+    background: rgb(255, 255, 255, 0.3);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 6px;
+}
+
+
+/* Hide the help button on the upper right */
+
+.iconWrapper-2OrFZ1[aria-label="Help"],
+.iconWrapper-2OrFZ1[aria-label="Aide"] {
+    display: none;
+}
+
+
+/* Discord icon colour in top left hand corner */
+
+.homeIcon-tEMBK1, .homeIcon-FuNwkv {
+    color: var(--primary) !important;
+}
+
+.childWrapper-anI2G9 {
+    background-color: rgba(0, 0, 0, .25) !important;
+}
+
+
+
+/* Tiffany blue Discord join/explore buttons */
+
+.circleIconButton-jET_ig, .circleIconButton-1QV--U svg path {
+    fill: var(--primary);
+}
+
+.circleIconButton-jET_ig.selected-ugP_am, .circleIconButton-1QV--U.selected-ugP_am {
+    background-color: var(--primary);
+}
+
+.circleIconButton-jET_ig.selected-ugP_am, .circleIconButton-1QV--U.selected-ugP_am svg path {
+    fill: white;
+}
+
+.circleIconButton-1QV--U {
+    background-color: rgba(0, 0, 0, .25)!important
+}
+
+.circleIconButton-1QV--U:hover {
+    border-color: var(--primary)!important
+}
+
+
+/* ColorFix */
+
+.typeWindows-1za-n7 {
+    background-color: #0c0e13 !important;
+}
+
+.wrapper-1Rf91z {
+    width: auto !important;
+}
+
+.container-1giJp5,
+.container-3baos1 {
+    background-color: #0c0e13 !important;
+}
+
+.scroller-2TZvBN,
+.scroller-1Bvpku {
+    background-color: #0c0e13 !important;
+}
+
+.container-3w7J-x,
+.scroller-1JbKMe,
+.privateChannels-1nO12o {
+    background-color: #14171f !important;
+}
+
+.members-1998pB,
+.members-1998pB>div {
+    background-color: #14171f !important;
+}
+
+.searchBar-6Kv8R2 {
+    box-shadow: var(--elevation-low) !important;
+}
+
+.container-3baos1 {
+    height: 53px !important;
+    margin-bottom: 0px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: 0 0!important;
+}
+
+.membershipDialogHeading-3y8iIr, .membershipDialogHouseDescription-1GaVtg, .membershipDialogHouseName-ezTTJ9, .membershipDialogSwitchHouses-1K8L1U, .membershipDialogSwitchHousesAction-2a3eDg:hover {
+    color: #fff !important;
+}
+
+.item-26Dhrx[aria-checked="true"] {
+  background-color: rgba(0,0,0,.4)!important;
+}
+.item-26Dhrx {
+  background-color: rgba(0,0,0,.15)!important;
+}
+.item-26Dhrx:hover:not([aria-checked="true"]) {
+  background-color: rgba(0,0,0,.30)!important;
+}
+
+.cardWrapper-2Min21 {
+  background-color: rgba(0,0,0,.15)!important;
+}
+.card-3AyPWq:hover {
+  background-color: rgba(0,0,0,.30)!important;
+}
+
+.theme-dark .notches-1sAcEM.gray-3_LNYR {
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E);
+    background-color: rgba(0,0,0,.3);
+}
+
+.colorHeaderPrimary-26Jzh- {
+    color: #bebebe !important;
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+    color: #B9BBBE;
+}
+
+/* Discover */
+.thin-1ybCId { 
+    background-color: #14171f !important;
+}
+
+/* Add Servers */
+.container-UC8Ug1 {
+    background-color: rgba(0,0,0,.2)!important;
+}
+
+.lookBlank-3eh9lL {
+    color: #B9BBBE;
+}
+
+/* Powercord */
+.powercord-entities-manage-tabs {
+    background-color: #14171f !important;
+}
+.developerPortalCtaWrapper-2XNafh {
+    background-color: #14171f !important;
+}
