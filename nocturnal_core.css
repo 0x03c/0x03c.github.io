@@ -146,6 +146,15 @@
     color: #B9BBBE;
 }
 
+.expandedFolderBackground-1cujaW {
+    background-color: rgba(0, 0, 0, .25)!important;
+}
+
+.folder-1hbNCn {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .25)!important;
+}
+
 /* Discover */
 .thin-1ybCId { 
     background-color: #14171f !important;
